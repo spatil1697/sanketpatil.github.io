@@ -42,9 +42,10 @@ const about = () => {
             active and enjoy the teamwork and when I want to chill, you will find me playing PC games, whether it is
             something competitive or a game with a good story.
           </p>
-          <a href={CV} download className='btn download_btn'>Download CV</a>
-          <a href= "#contact" className='btn btn-primary'>Contact Me</a> 
-    
+          <div class="buttons-container">
+            <a href={CV} download class="btn download_btn">Download CV</a>
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+          </div> 
         </div>
       </div>    
     </section>

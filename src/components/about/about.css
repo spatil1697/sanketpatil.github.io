@@ -93,6 +93,11 @@
     color: var(--color-white);
 }
 
+.buttons-container {
+    display: flex;
+    gap: 0.3rem; 
+}
+
 
 /* Media Queries (MD size) */
 @media screen and (max-width: 1024px) {
@@ -132,6 +137,11 @@
    .about_content p{
     margin: 1.5rem 0;
    }
-  
+
+   .buttons-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    }
 }
 
