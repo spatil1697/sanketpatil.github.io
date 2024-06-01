@@ -47,13 +47,14 @@
 .resume_item h5 {
     color: var(--color-primary);
     font-weight: 100;
-    font-size: 11.5px;
+    font-size: 12.5px;
  
 }
 .resume_item p {
     color: rgba(0, 0, 0, 0.534);
-    font-weight: 350;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 15px;
+    word-spacing: 3px; 
 }
 
 .resume_sub_header{
