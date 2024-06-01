@@ -1,0 +1,169 @@
+header{
+    height: 115vh;
+    width: 100%;
+    background-image: url("../../assets/mountains.jpg") ;
+    background-size: cover; 
+    background-position: bottom;
+    display: flex; 
+    justify-content: center; 
+    position: relative;
+    background-position: fixed;
+    
+}
+
+.site_header-mask{
+    position: absolute;
+    inset: 0;
+    background-image: url("../../assets/mask1.png") ;
+    background-size: cover; 
+    background-position: bottom;
+    pointer-events: none; 
+    z-index: 10;
+    transform-style: preserve-3d;
+}
+
+.header_container {
+   text-align: center; 
+    color: white;
+    position: fixed;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.header_text {
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 20px;
+    color: rgba(--color-light);
+    font-weight: 300;
+    font-size: 15.5px;
+}
+
+a {
+    font-size: small;
+}
+
+
+/* CTA  */
+
+.CTA{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    position: relative;
+}
+
+.CTA a{
+  color:  var(--color-white) ;
+  border: 1px solid var(--color-white);
+}
+
+/* Header Socials */
+
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+
+}
+
+.header_socials::after{
+    content: '';
+    width: 1px;
+    height:2rem;
+    background: var(--color-primary);
+
+}
+
+/*  Scroll Down*/
+
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem ;
+}
+
+/* Media Queries (MD size) */
+@media screen and (max-width: 1024px) {
+    header{
+        height: 75vh;
+    }
+
+    .header_container {
+         transform: translateY(-75%); 
+    }
+}
+
+
+/* Media Queries (SM size) */
+@media screen and (max-width: 600px) {
+    header{
+        height: 110vh;
+    }
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+
+    .header_container {
+        transform: translateY(-50%); 
+   }
+
+    .header_text {
+        font-size: 15px;
+    }
+}
+
+
+/*  Animation */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 20%}
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--color-primary)}
+  }
+
+  .custom_animation{
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: .12em solid ;
+    animation: typing 2s steps(40, end), blink-caret 0.85s infinite;
+  
+  }
+
+  /* animation class and keyframes */
+    .overflow-hidden {
+    overflow: hidden;
+   }
+   
+   .drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+   }
+   
+   .drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+   }
+   
+   @keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-100px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+   }

@@ -1,0 +1,80 @@
+.resume_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+
+}
+
+.resume_container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resume_item {
+    background: var(--color-white);
+    text-align: center;
+    padding: 2.5rem 1.3rem;
+    border: 2px solid transparent;
+    transition: border-color var(--transition); 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resume_item:hover {
+    border-color: var(--color-primary);
+}
+
+.resume_item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.resume_container h3 {
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 300;
+    text-align: center;
+}
+
+.resume_container h4 {
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 300;
+    text-align: center;
+}
+
+.resume_item h5 {
+    color: var(--color-primary);
+    font-weight: 100;
+    font-size: x-small;
+ 
+}
+.resume_item p {
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.resume_sub_header{
+    color: var(--color-bg-variant);
+}
+
+/* Media Queries (MD size) */
+@media screen and (max-width: 1024px) {
+   .resume_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+   }
+    
+}
+
+/* Media Queries (SM size) */
+@media screen and (max-width: 600px) {
+    .resume_container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+   
+ 
+}
