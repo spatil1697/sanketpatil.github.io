@@ -11,7 +11,7 @@ const Header = () => {
         <h4 className='drop-in'>Hi, my name is </h4>
         <h1 className='custom_animation'>Sanket Patil</h1>
         <h5 className='text-light drop-in-2 header_text'>
-          A Full Stack Developer actively looking for a new position. I love exploring new technologies and always strive to enhance my skills by developing various projects.
+          A Full Stack Developer actively looking for a new position. I like exploring new technologies and always strive to enhance my skills by developing various projects.
         </h5>
         <CTA />
         <HeaderSocials />
