@@ -35,7 +35,7 @@ const about = () => {
           */}
           <p className='break'>
             I am a skilled software developer with a strong background in Java, JavaScript, and various frameworks like Spring Boot, React, and Node.js.
-            I have experience in both frontend and backend development, integrating RESTful APIs, and managing SQL and NoSQL databases. Proficient in
+            I have experience in both frontend and backend development, integrating RESTful APIs, and working with SQL and NoSQL databases. Proficient in
             English and with basic German skills, Ready to build awesome software and have some fun doing it!
           <br/>
             Apart from coding, I love exploring new places and traveling. I play soccer to stay
