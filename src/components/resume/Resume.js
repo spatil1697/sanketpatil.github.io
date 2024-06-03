@@ -27,7 +27,7 @@ const educationData=[
   {
     id: 1,
     date:'October 2021 - January 2022 ',
-    title: 'Msc in Communication and Media Engineering',
+    title: 'M. Sc. in Communication and Media Engineering',
     description:'I completed my master’s degree with a focus on media and computer science. During my studies, I gained advanced knowledge in computer science and web development. I also developed skills in management, problem-solving, software and web development.',
     university:'Offenburg University of Applied Sciences',
   },
