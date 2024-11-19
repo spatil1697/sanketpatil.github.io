@@ -10,15 +10,15 @@ const experienceData=[
   {
     id: 1,
     date:'June 2023 - December 2023',
-    title: 'Software Development',
-    description:'Designed and developed a Spectrum Management web application using Java, Groovy, and Grails. Integrated Spring Boot based REST APIs and configured frontend within the mySPECTRA environment. Worked with databases such as ArangoDB, PostgreSQL, and Oracle, and implemented user interfaces for users.',
+    title: 'Software Developer (Master Thesis)',
+    description:'Designed and developed a customer-specific software solutions in Java, Groovy and Grails. Integrated Spring Boot based RESTful APIs and Implemented frontend configuration within the mySPECTRA environment. Worked with databases such as ArangoDB, PostgreSQL and Oracle and implemented user interfaces for users.',
     company:'LS Telcom AG',
   },
   {
     id: 2,
     date:'March 2023 - June 2023',
-    title: 'Internship in Software Development',
-    description:'Led a data migration project for the Spectrum Management Application. This involved enhancing data quality by implementing data validation using Java. Extracted data from PostgreSQL and Oracle using SQL. Automated data migration (Extract, Transform, Load), including migration of data from legacy systems to cloud environment. Developed data mapping strategies for different services. Actively participated in Agile Scrum meetings, learning project management methods.',
+    title: 'Software Developer (Internship)',
+    description:'Identified and resolved various bugs using Java, JavaScript and Vue.js. Designed, implemented, tested and automated a data migration (ETL) process using Java, Apache Hop and SQL. Automated data migration across various services, including migration of data from legacy systems to cloud environment. Extracted data from PostgreSQL and Oracle using SQL. Developed data mapping strategies for different services. Actively participated in Agile Scrum meetings, learning project management methods.',
     company:'LS Telcom AG',
   }
 ]
@@ -35,7 +35,7 @@ const educationData=[
     id: 2,
     date:'August 2016 - October 2020',
     title: ' Bachelor of Electronics Engineering',
-    description:'I gained my fundamental knowledge and foundation in electronics and computer science during my bachelor’s degree. While pursuing my degree, I worked on a project called Smart Farming using IoT, where I was responsible for developing the frontend.',
+    description:'I gained my fundamental knowledge and foundation in electronics and computer science during my bachelor’s degree. While pursuing my degree, I worked on a project called Smart Farming using IoT, where I was responsible for developing the web interface.',
     university:'University Of Mumbai',
   }
 ]
