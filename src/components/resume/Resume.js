@@ -11,7 +11,7 @@ const experienceData=[
     id: 1,
     date:'June 2023 - December 2023',
     title: 'Software Developer (Master Thesis)',
-    description:'Designed and developed a customer-specific software solutions in Java, Groovy and Grails. Integrated Spring Boot based RESTful APIs and Implemented frontend configuration within the mySPECTRA environment. Worked with databases such as ArangoDB, PostgreSQL and Oracle and implemented user interfaces for users.',
+    description:'Designed and developed a customer-specific software solution in Java, Groovy and Grails. Integrated Spring Boot based RESTful APIs and Implemented frontend configuration within the mySPECTRA environment. Worked with databases such as ArangoDB, PostgreSQL and Oracle and implemented user interfaces for users.',
     company:'LS Telcom AG',
   },
   {
